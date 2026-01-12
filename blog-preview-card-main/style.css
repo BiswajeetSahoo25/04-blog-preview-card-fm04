@@ -1,0 +1,93 @@
+
+:root{
+    /* color */
+    --primary-yellow: 47, 88%, 63%;
+    --primary-white: 0, 0%, 100%;
+
+    --secondary-gray-500: 0, 0%, 42%;
+    --secondary-gray-950: 0, 0%, 7%;
+
+    /* hsl colors */
+    --primary-hsl-yellow: hsl(var(--primary-yellow));
+    --primary-hsl-white: hsl(var(--primary-white));
+
+    --secondary-hsl-gray-500: hsl(var(--secondary-gray-500));
+    --secondary-hsl-gray-950: hsl(var(--secondary-gray-950));
+    
+    /* font weight */
+    --fw-regular: 500;
+    --fw-bold: 800;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: var(--primary-hsl-yellow);
+    font-family:  "Figtree", sans-serif;
+}
+
+.card {
+    max-width: 320px;
+    width: 100%;
+    margin-inline: auto;
+    background-color: var(--primary-hsl-white);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 black;
+}
+
+#card-illustration {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.button {
+    display: block;
+    cursor: pointer;
+    background: var(--primary-hsl-yellow);
+    font-weight: 700;
+    border-radius: 0.2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-inline: 0.5rem;
+    padding-block: 0.2rem;
+    border: none;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.card span {
+    color: var(--secondary-hsl-gray-950);
+}
+
+.card h1 {
+    font-size: 1.4rem;
+}
+.card h1:hover {
+    cursor: pointer;
+    color: var(--primary-hsl-yellow);
+}
+
+.card p{
+    color: var(--secondary-hsl-gray-500);
+    font-size: 0.94rem;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: var(--fw-bold);
+    font-size: 0.8rem;
+}
+
+.card .author img {
+    width: 2rem;
+}
