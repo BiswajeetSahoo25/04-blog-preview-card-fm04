@@ -4,7 +4,7 @@ This is a solution to the **Blog Preview Card** challenge from Frontend Mentor.
 The goal was to build a responsive blog card layout using only HTML and CSS.
 
 ## 🔗 Links
-- Live Site: https://your-username.github.io/blog-preview-card/
+- Live Site: https://blog-preview-card-fm04.netlify.app/
 - GitHub Repo: https://github.com/your-username/blog-preview-card
 
 ## 🛠 Built With
