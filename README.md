@@ -13,9 +13,6 @@ The goal was to build a responsive blog card layout using only HTML and CSS.
 - Flexbox
 - CSS custom properties (variables)
 
-## 📸 Screenshot
-![Blog preview card](./preview.jpg)
-
 ## 📚 What I Learned
 - Structuring content using semantic HTML (`main`, `article`, `footer`)
 - Centering layouts properly without breaking responsiveness
